@@ -1,18 +1,12 @@
+import "./styles.css";
+import Header from "./Header";
+import Weather from "./Weather";
 
-import './App.css';
-import Weather from "./Weather"
-
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-    <h1>HELLO </h1>
-    <a href='/' target="_blank" rel="nonreffer"> ref</a>
-    <Weather city="Tokyo"/>
-      </header>
+      <Header />
+      <Weather />
     </div>
   );
 }
-
-export default App;
